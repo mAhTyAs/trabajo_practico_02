@@ -68,15 +68,9 @@ public class Main {
 			        System.out.println("Que dato desea modificar(exceptuando el codigo)");
 			        System.out.println("1-Descripcion"+"\n"+"2-Precio"+"\n"+"3-Origen"+"\n"+"3-Categoria");
 			        int dato = sc.nextInt();
-			          
-			        		
-			  
-			        
-			      
-			       
+            default:
 			}    
-			
-			
+	
 		}while(opcion!=4);
 	}
 
