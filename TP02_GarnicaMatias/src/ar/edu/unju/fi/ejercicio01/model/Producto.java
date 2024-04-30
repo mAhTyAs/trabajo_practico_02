@@ -11,13 +11,13 @@ public class Producto {
 		return codigo;
 	}
 	public void setCodigo(String codigo) {
-		codigo = codigo;
+		this.codigo = codigo;
 	}
 	public String getDescripcion() {
 		return descripcion;
 	}
 	public void setDescripcion(String descripcion) {
-		descripcion = descripcion;
+		this.descripcion = descripcion;
 	}
 	public double getPrecioUni() {
 		return precioUni;
@@ -64,7 +64,7 @@ public class Producto {
 			   "Descripcion: " + descripcion + "\n"+
 	           "Precio Unitario: " + precioUni+ "\n"+
 	           "Origen de Fabricacion: " + origenFabricacion + "\n"+
-	           "Categoria: " + categoria ;
+	           "Categoria: " + categoria +"\n";
 	}
 	
 	 
